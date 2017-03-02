@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C76393EC1E6875EB00D7A7A3 /* KZHUserInfoTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C76393EB1E6875EB00D7A7A3 /* KZHUserInfoTool.m */; };
+		C7D08B581E67E738004A375A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D08B571E67E738004A375A /* main.m */; };
+		C7D08B5B1E67E738004A375A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D08B5A1E67E738004A375A /* AppDelegate.m */; };
+		C7D08B5E1E67E738004A375A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D08B5D1E67E738004A375A /* ViewController.m */; };
+		C7D08B611E67E738004A375A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7D08B5F1E67E738004A375A /* Main.storyboard */; };
+		C7D08B631E67E738004A375A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7D08B621E67E738004A375A /* Assets.xcassets */; };
+		C7D08B661E67E738004A375A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7D08B641E67E738004A375A /* LaunchScreen.storyboard */; };
+		C7D08B6F1E67F4D5004A375A /* logo_LittleSure.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D08B6E1E67F4D5004A375A /* logo_LittleSure.png */; };
+		CEE8919D1B5EC73D257584CC /* libPods-BmobCocopods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 583A743EA8053B9B553322DC /* libPods-BmobCocopods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C243ABF4C43C3BB6BD6F8EF /* Pods-BmobCocopods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BmobCocopods.release.xcconfig"; path = "Pods/Target Support Files/Pods-BmobCocopods/Pods-BmobCocopods.release.xcconfig"; sourceTree = "<group>"; };
+		1DCC6FE1F293365ADAD37FFA /* Pods-BmobCocopods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BmobCocopods.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BmobCocopods/Pods-BmobCocopods.debug.xcconfig"; sourceTree = "<group>"; };
+		583A743EA8053B9B553322DC /* libPods-BmobCocopods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BmobCocopods.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C76393EA1E6875EB00D7A7A3 /* KZHUserInfoTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZHUserInfoTool.h; sourceTree = "<group>"; };
+		C76393EB1E6875EB00D7A7A3 /* KZHUserInfoTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZHUserInfoTool.m; sourceTree = "<group>"; };
+		C7D08B531E67E738004A375A /* BmobCocopods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BmobCocopods.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7D08B571E67E738004A375A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7D08B591E67E738004A375A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C7D08B5A1E67E738004A375A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C7D08B5C1E67E738004A375A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C7D08B5D1E67E738004A375A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C7D08B601E67E738004A375A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7D08B621E67E738004A375A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7D08B651E67E738004A375A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7D08B671E67E738004A375A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7D08B6D1E67EA85004A375A /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C7D08B6E1E67F4D5004A375A /* logo_LittleSure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_LittleSure.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7D08B501E67E738004A375A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE8919D1B5EC73D257584CC /* libPods-BmobCocopods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29B961ACFCF0340D09CDEE60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				583A743EA8053B9B553322DC /* libPods-BmobCocopods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5AC2329C84A4437A96EB532A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1DCC6FE1F293365ADAD37FFA /* Pods-BmobCocopods.debug.xcconfig */,
+				1C243ABF4C43C3BB6BD6F8EF /* Pods-BmobCocopods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C7D08B4A1E67E738004A375A = {
+			isa = PBXGroup;
+			children = (
+				C7D08B551E67E738004A375A /* BmobCocopods */,
+				C7D08B541E67E738004A375A /* Products */,
+				5AC2329C84A4437A96EB532A /* Pods */,
+				29B961ACFCF0340D09CDEE60 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C7D08B541E67E738004A375A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7D08B531E67E738004A375A /* BmobCocopods.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7D08B551E67E738004A375A /* BmobCocopods */ = {
+			isa = PBXGroup;
+			children = (
+				C76393EA1E6875EB00D7A7A3 /* KZHUserInfoTool.h */,
+				C76393EB1E6875EB00D7A7A3 /* KZHUserInfoTool.m */,
+				C7D08B6E1E67F4D5004A375A /* logo_LittleSure.png */,
+				C7D08B591E67E738004A375A /* AppDelegate.h */,
+				C7D08B5A1E67E738004A375A /* AppDelegate.m */,
+				C7D08B5C1E67E738004A375A /* ViewController.h */,
+				C7D08B5D1E67E738004A375A /* ViewController.m */,
+				C7D08B5F1E67E738004A375A /* Main.storyboard */,
+				C7D08B621E67E738004A375A /* Assets.xcassets */,
+				C7D08B641E67E738004A375A /* LaunchScreen.storyboard */,
+				C7D08B671E67E738004A375A /* Info.plist */,
+				C7D08B561E67E738004A375A /* Supporting Files */,
+				C7D08B6D1E67EA85004A375A /* PrefixHeader.pch */,
+			);
+			path = BmobCocopods;
+			sourceTree = "<group>";
+		};
+		C7D08B561E67E738004A375A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7D08B571E67E738004A375A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7D08B521E67E738004A375A /* BmobCocopods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7D08B6A1E67E738004A375A /* Build configuration list for PBXNativeTarget "BmobCocopods" */;
+			buildPhases = (
+				72E6C4B874409C7293461035 /* [CP] Check Pods Manifest.lock */,
+				C7D08B4F1E67E738004A375A /* Sources */,
+				C7D08B511E67E738004A375A /* Resources */,
+				C7D08B501E67E738004A375A /* Frameworks */,
+				98630080F368A7A46E480D5F /* [CP] Embed Pods Frameworks */,
+				47CAE2E0BBAECBAF683EE7EF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BmobCocopods;
+			productName = BmobCocopods;
+			productReference = C7D08B531E67E738004A375A /* BmobCocopods.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7D08B4B1E67E738004A375A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "邝子涵";
+				TargetAttributes = {
+					C7D08B521E67E738004A375A = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = PY7ZU58Z7K;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C7D08B4E1E67E738004A375A /* Build configuration list for PBXProject "BmobCocopods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7D08B4A1E67E738004A375A;
+			productRefGroup = C7D08B541E67E738004A375A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7D08B521E67E738004A375A /* BmobCocopods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7D08B511E67E738004A375A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7D08B661E67E738004A375A /* LaunchScreen.storyboard in Resources */,
+				C7D08B631E67E738004A375A /* Assets.xcassets in Resources */,
+				C7D08B611E67E738004A375A /* Main.storyboard in Resources */,
+				C7D08B6F1E67F4D5004A375A /* logo_LittleSure.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47CAE2E0BBAECBAF683EE7EF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BmobCocopods/Pods-BmobCocopods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72E6C4B874409C7293461035 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		98630080F368A7A46E480D5F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BmobCocopods/Pods-BmobCocopods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7D08B4F1E67E738004A375A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7D08B5E1E67E738004A375A /* ViewController.m in Sources */,
+				C7D08B5B1E67E738004A375A /* AppDelegate.m in Sources */,
+				C76393EC1E6875EB00D7A7A3 /* KZHUserInfoTool.m in Sources */,
+				C7D08B581E67E738004A375A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C7D08B5F1E67E738004A375A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7D08B601E67E738004A375A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7D08B641E67E738004A375A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7D08B651E67E738004A375A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7D08B681E67E738004A375A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C7D08B691E67E738004A375A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7D08B6B1E67E738004A375A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DCC6FE1F293365ADAD37FFA /* Pods-BmobCocopods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PY7ZU58Z7K;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/kuangzihan/Desktop/BmobCocopods/BmobCocopods/PrefixHeader.pch;
+				INFOPLIST_FILE = BmobCocopods/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LoveForMe.iOS.BmobCocopods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C7D08B6C1E67E738004A375A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C243ABF4C43C3BB6BD6F8EF /* Pods-BmobCocopods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PY7ZU58Z7K;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/kuangzihan/Desktop/BmobCocopods/BmobCocopods/PrefixHeader.pch;
+				INFOPLIST_FILE = BmobCocopods/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LoveForMe.iOS.BmobCocopods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7D08B4E1E67E738004A375A /* Build configuration list for PBXProject "BmobCocopods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7D08B681E67E738004A375A /* Debug */,
+				C7D08B691E67E738004A375A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7D08B6A1E67E738004A375A /* Build configuration list for PBXNativeTarget "BmobCocopods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7D08B6B1E67E738004A375A /* Debug */,
+				C7D08B6C1E67E738004A375A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7D08B4B1E67E738004A375A /* Project object */;
+}

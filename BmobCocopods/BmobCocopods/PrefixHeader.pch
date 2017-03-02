@@ -1,0 +1,16 @@
+//
+//  PrefixHeader.pch
+//  BmobCocopods
+//
+//  Created by 邝子涵 on 2017/3/2.
+//  Copyright © 2017年 邝子涵. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <BmobSDK/Bmob.h>
+
+#import "KZHUserInfoTool.h"
+
+#endif /* PrefixHeader_pch */
